@@ -1,0 +1,580 @@
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	#header {
+		padding: 0;
+		height: 55px;
+	}
+
+	.headertitle {
+		height: 55px;
+		position: relative;
+		width: 100%;
+	}
+	.logo img {
+		width: 90px;
+		display: block;
+		position: absolute;
+		bottom: 5px;
+		left: 0;
+		padding-left: 10px;
+	}
+	.subtitle {
+		font-size: 10px;
+		clear: left;
+		position: absolute;
+		top: -5px;
+		left: 0px;
+		padding-left: 10px;
+	}
+
+	.contact {
+		display: none;
+	}
+
+	.contact-icon {
+		display: inline-block;
+		height: 100%;
+		background-color: #da6b64;
+		font-size: 10px;
+		text-align: center;
+		position: absolute;
+		right: 0;
+	}
+
+	.contact-icon img {
+		height: 50%;
+		padding-top: 5px;
+	}
+
+	.contact-icon p {
+		margin: 0;
+		padding: 0 10px;
+	}
+
+	.section1 {
+		background-image: url(iSARAimage/mainsp.jpg);
+		height: 100%;
+	}
+
+	.section1 h2 {
+		font-size: 20px;
+	}
+
+	.section1 h3 {
+		font-size: 16px;
+	}
+
+	.section2copy {
+		font-size: 14px;
+	}
+
+	#virtuallyFree {
+		font-size: 12px;
+	}
+
+	.contactbtn {
+		padding: 15px 100px;
+	}
+
+	.contactbtn p {
+		font-size: 16px;
+	}
+
+	.section3copy {
+		font-size: 16px;
+		line-height: 24px;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.key {
+		width: 90%;
+		height: 60px;
+	}
+
+	.key h2 {
+		font-size: 12px;
+		line-height: 60px;
+	}
+
+	.before, .after {
+		width: 30px;
+		height: 30px;
+	}
+
+	.section3 {
+		background-size: auto;
+		height: auto;
+	}
+
+	.key2 {
+		width: 90%;
+		height: auto;
+	}
+
+	.key2 h1 {
+		font-size: 18px;
+		line-height: 30px
+	}
+
+	#focusonearning {
+		font-size: 16px;
+	}
+
+	.box {
+		width: 90%;
+	}
+
+	.boxitem {
+		width: 30%;
+		font-size: 12px;
+	}
+
+	.itemtop {
+		vertical-align: top;
+	}
+
+	.boxitem img {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.section5 {
+		background-size: auto;
+		height: auto;
+	}
+
+	.section5 h2 {
+		font-size: 18px;
+		padding: 0 20px;
+	}
+
+	.section5 h3 {
+		font-size: 12px;
+		padding: 0 20px;
+	}
+
+	.box5s {
+		width: 90%;
+		height: auto;
+		padding: 0;
+	}
+
+	.box5 {
+		display: block;
+		width: 100%;
+		margin: 10px 0;
+		font-size: 14px;
+		padding: 20px 30px;
+	}
+
+	.box5 h4 {
+		margin: 0;
+	}
+
+	.box5 h5 {
+		margin-bottom: 5px;
+	}
+
+	.section6 h3 {
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	.whatyoucanlearn {
+		height: auto;
+		width: 100%;
+	}
+
+	.whatyoucanlearn img {
+		width: 23%;
+		padding: 5px;
+	}
+
+	.section7 h4 {
+		padding: 0;
+	}
+
+	.key2second h2 {
+		line-height: 16px;
+		font-size: 12px;
+	}
+
+	.key2second h1 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.threeadvantages {
+		width: 90%;
+	}
+
+	.advantage {
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+
+	.advantage img {
+		width: 100%;
+		height: 120px;
+	}
+
+	.advantage h3 {
+		text-align: center;
+	}
+
+	.advantage p {
+		font-size: 14px;
+	}
+
+	.additionbox {
+		width: 100%;
+		padding: 10px;
+	}
+
+	#aftersupport {
+		font-size: 20px;
+	}
+
+	.additionbox h2 {
+		font-size: 16px;
+	}
+
+	.additionbox p {
+		font-size: 12px;
+	}
+
+	.threeadvantages p {
+		font-size: 14px;
+	}
+
+	.section8 {
+		background-image: url(iSARAimage/teacherbgsp.jpg);
+		width: 100%;
+	}
+
+	.section8 h2 {
+		font-size: 20px;
+	}
+
+	.section8 h4 {
+		font-size: 12px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.teacherprof {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.profileimg {
+		width: 120px;
+		height: 120px;
+	}
+
+	.teachers {
+		display: block;
+		width: 100%;
+		padding: 20px 0 0 0;
+	}
+
+	.profile {
+		padding: 20px;
+		width: 100%;
+	}
+
+	.whitequestion h1 {
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	.pad15 {
+		padding: 15px;
+	}
+
+	.section9 {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.section9message {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.presidents {
+		width: 100%;
+		height: auto;
+	}
+
+	.presidents img {
+		width: 40%;
+		height: auto;
+		margin: 0;
+	}
+
+	.presidentcomment {
+		width: 55%;
+		font-size: 12px;
+
+	}
+
+	.section10 h1 {
+		font-size: 24px;
+	}
+
+	.section10 h4 {
+		font-size: 12px;
+	}
+
+	.learningcontents {
+		display: block;
+		width: 90%;
+		margin: 10px auto;
+	}
+
+	.contentsdetail h4 {
+		line-height: 35px;
+	}
+
+	.section11title {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.sectin11title h1 {
+		font-size: 24px;
+	}
+
+	.section11title img {
+		display: none;
+	}
+
+	.boxflow {
+		width: 90%;
+		margin-top: 10px;
+	}
+
+	.flowtitle {
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin: 10px 0;
+		height: 40px;
+		position: relative;
+	}
+
+	.flowtitle img {
+		height: 100%;
+	}
+
+
+
+	.flowtitle br {
+		display: none;
+	}
+
+	.flowdescription {
+		display: block;
+		width: 100%;
+		display: none;
+	}
+
+	.flowdescription h4 {
+		font-size: 14px;
+		margin: 5px 0;
+	}
+
+	.flowdescription p {
+		font-size: 10px
+	}
+
+
+
+	.flowtitle h3 {
+		display: inline-block;
+		vertical-align: top;
+		line-height: 40px;
+		margin: 0 0 0 10px;
+		font-size: 16px;
+	}
+
+	.resplus{
+		display: inline-block;
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+
+	.section12 {
+		padding: 20px;
+		background-image: url(iSARAimage/bangkokbgsp.jpg);
+	}
+
+	.whybangkok {
+		width: 90%;
+	}
+
+	.whybangkok h2 {
+		text-align: center;
+	}
+
+	.whybangkok p {
+		font-size: 12px;
+	}
+
+	.isaravirtuallyfree {
+		font-size: 16px;
+		width: 50%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: -20px;
+	}
+
+	.gift {
+		width: 100%;
+		height: 100px;
+		margin: 0;
+		position: relative;
+	}
+
+	.giftcircle {
+		width: 80px;
+		height: 80px;
+		display: inline-block;
+		position: absolute;
+		top: 10px;
+		left: 0;
+	}
+
+	.giftcircle h3 {
+		font-size: 16px;
+		position: absolute;
+		top: 10px;
+		left: 15px;
+	}
+
+	.giftpc {
+		display: none;
+	}
+
+	.giftphone {
+		display: inline-block;
+		color: white;
+		width: 60%;
+		position: absolute;
+		right: 0;
+		top: 10px;
+		font-size: 12px;
+		text-align: left;
+	}
+
+	.section13 h1 {
+		font-size: 20px;
+	}
+
+	.section13 h3 {
+		font-size: 12px;
+	}
+
+	.section13content {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.keywhite2 h2 {
+		font-size: 20px;
+		line-height: 40px;
+		width: 70%;
+	}
+
+	.keywhite2 {
+		height: 80px;
+		position: relative;
+	}
+
+	.beforewhite2 {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.afterwhite2 {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	.someyagreet {
+		width: 90%;
+	}
+
+	.someyagreet img {
+		width: 100%;
+	}
+
+	.someyagreetmessage {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.requireform {
+		width: 100%;
+	}
+
+	.formvalue {
+		margin: 10px 0;
+	}
+
+	.requireform textarea {
+		margin: 20px 0;
+	}
+
+	.submitbtn {
+		margin: 20px 0;
+	}
+
+	#faqlist {
+		width: 95%;
+	}
+
+	.faqlistitem {
+		width: 100%;
+	}
+
+	.question {
+		width: 100%;
+		margin: 5px auto;
+	}
+
+	.question h2 {
+		font-size: 12px;
+	}
+
+	.question span {
+		top: 16px;
+	}
+
+	#tenman {
+		display: block;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+}
