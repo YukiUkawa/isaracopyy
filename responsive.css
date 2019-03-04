@@ -57,6 +57,11 @@
 	.section1 {
 		background-image: url(iSARAimage/mainsp.jpg);
 		height: 100%;
+		padding-top: 55px;
+	}
+
+	.section1 img {
+		margin: 0;
 	}
 
 	.section1 h2 {
@@ -108,6 +113,7 @@
 	.section3 {
 		background-size: auto;
 		height: auto;
+		background-repeat: no-repeat;
 	}
 
 	.key2 {
@@ -565,11 +571,18 @@
 		display: block;
 	}
 
-	
 
 }
 
 @media (max-width: 360px) {
+
+	.section1 h2 {
+		font-size: 14px;
+	}
+
+	.section1 h3 {
+		font-size: 14px;
+	}
 
 	.contactbtn {
 		padding: 10px 40px;
