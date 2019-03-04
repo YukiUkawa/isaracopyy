@@ -567,14 +567,53 @@
 
 	
 
-
-
-
-
-
-
-
-
-
-
 }
+
+@media (max-width: 360px) {
+
+	.contactbtn {
+		padding: 10px 40px;
+	}
+
+	.key h2 {
+		line-height: 30px;
+	}
+
+	.hide360 {
+		display: block;
+	}
+
+	.section3 p {
+		font-size: 12px;
+	}
+
+	.mnone360 {
+		margin: 0;
+	}
+
+	.whitequestion h1 {
+		font-size: 12px;
+	}
+
+	.flowtitle h3 {
+		font-size: 12px;
+	}
+
+	.gifts {
+		padding: 20px;
+	}
+
+	.isaravirtuallyfree {
+		font-size: 11px;
+	}
+
+	.giftphone {
+		font-size: 10px;
+	}
+
+	.question h2 {
+		width: 80%;
+	}
+
+
+} 
