@@ -132,6 +132,43 @@ li{
 	margin: 0;
 }
 
+#top-btn-section {
+	text-align: right;
+	padding-right: 100px;
+	margin-top: -30px;
+}
+
+#pdtop30 {
+	padding-top: 30px;
+}
+
+.top-btn {
+	width: 70px;
+	height: 70px;
+	background-color: #ECECEC;
+	padding: 10px;
+	position: fixed;
+	z-index: 10;
+	text-align: center;
+	display: inline-block;
+}
+
+.top-btn i {
+	font-size: 50px;
+	color: #333333;
+}
+
+.fadein {
+	opacity: 0;
+    transform : translate(0, 0);
+    transition:all 0.5s;
+}
+
+.scrollin {
+    opacity : 0.7;
+    transform : translate(0, 0);
+}
+
 .section2-onehalf {
 	margin: 30px 0 10px 0;
 }
@@ -244,13 +281,6 @@ li{
 	position: relative;
 }
 
-.key2 h1 {
-	line-height: 70px;
-	text-align: center;
-	margin: 0;
-	display: inline-block;
-}
-
 .key2 h2 {
 	line-height: 70px;
 	text-align: center;
@@ -301,6 +331,13 @@ li{
 	color: white;
 }
 
+.section5 p {
+	color: white;
+	font-size: 18px;
+	margin: 18px 0;
+	font-weight: bold;
+}
+
 .chat {
 	color: #ebb94d;
 }
@@ -329,6 +366,17 @@ li{
 	font-weight: normal;
 }
 
+.box5 p {
+	color: black;
+	font-size: 16px;
+	margin: 18px 0;
+}
+
+.box5step p {
+	font-size: 14px;
+	margin: 22px 0;
+}
+
 .section6 {
 	background-color: #2B6DA4;
 	padding: 20px;
@@ -341,8 +389,13 @@ li{
 	padding: 20px;
 }
 
-.section7 h4 {
+#isaraletter {
+	font-size: 14px;
+}
+
+.section7 h3 {
 	padding: 40px 0;
+	font-size: 16px;
 }
 
 .whatyoucanlearn {
@@ -360,6 +413,14 @@ li{
 
 .key2second {
 	height: 100%;
+}
+
+.key2second h2 {
+	line-height: 70px;
+}
+
+.mnone360 h2 {
+	font-size: 30px;
 }
 
 .after2second {
@@ -391,6 +452,14 @@ li{
 	color: #ebb94d;
 }
 
+.additionbox p {
+	font-weight: bold;
+}
+
+.buildteam p {
+	font-size: 20px;
+}
+
 .section8 {
 	background-image: url(iSARAimage/teacherbg.jpg);
 	padding: 40px 0;
@@ -398,6 +467,11 @@ li{
 	background-size: cover;
 	text-align: center;
 	color: white;
+}
+
+#directteaching p {
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .profileimg {
@@ -458,8 +532,9 @@ li{
 	text-align: center;
 }
 
-.whitequestion h1 {
+.whitequestion h2 {
 		margin: 0;
+		line-height: 50px;
 }
 
 .bottomtri {
@@ -472,6 +547,10 @@ li{
 
 .section9message {
 	text-align: center;
+}
+
+.section9message h2 {
+	font-size: 32px;
 }
 
 .presidents {
@@ -509,6 +588,15 @@ li{
 	text-align: center;
 }
 
+.section10 h2 {
+	font-size: 32px;
+}
+
+.section10 p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .learningcontents {
 	display: inline-block;
 	border: 2px solid #2B6DA4;
@@ -532,14 +620,19 @@ li{
 	color: black;
 }
 
-.contentsdetail h4 {
+.contentsdetail p {
+	font-size: 16px;
 	line-height: 46px;
 	margin: 0;
 	border-bottom: 1px dotted #e5e5e5;
 }
 
-.lastcontent h4 {
+.lastcontent p {
 	border-bottom: 0px solid white;
+}
+
+#eternalsupport h2 {
+	font-size: 20px;
 }
 
 .section11 {
@@ -548,6 +641,10 @@ li{
 
 .section11title {
 	text-align: center;
+}
+
+.section11title h2 {
+	font-size: 32px;
 }
 
 .boxflow {
@@ -573,6 +670,10 @@ li{
 	vertical-align: top;
 }
 
+.flowbold {
+	font-weight: bold;
+}
+
 .section12 {
 	background-image: url(iSARAimage/bangkokbg.jpg);
 	background-size: cover;
@@ -586,8 +687,8 @@ li{
 	color: white
 }
 
-.whybangkok h4 {
-	margin: 10px 0;
+#environmentbg {
+	font-size: 18px;
 }
 
 .colorwhite {
@@ -647,6 +748,15 @@ li{
 	text-align: center;
 }
 
+.section13content h2 {
+	font-size: 32px;
+}
+
+.section13content p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .keywhite2 h2{
 	line-height: 100px;
 	display: inline-block;
@@ -693,6 +803,10 @@ li{
 	font-size: 14px;
 }
 
+#formreq h3 {
+	font-size: 16px;
+}
+
 .requireform {
 	width: 890px;
 	margin: 0 auto;
@@ -734,6 +848,10 @@ li{
 	text-align: center;
 }
 
+.section14 h2{
+	font-size: 32px;
+}
+
 #faqlist {
 	width: 880px;
 	margin: 0 auto;
@@ -754,7 +872,7 @@ li{
 	color: #2B6DA4;
 }
 
-.question h2 {
+.question h3 {
 	margin: 0;
 	font-size: 22px;
 }
