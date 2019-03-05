@@ -88,6 +88,20 @@
 		font-size: 16px;
 	}
 
+	#top-btn-section {
+		padding-right: 30px;
+	}
+
+	.top-btn {
+		width: 50px;
+		height: 50px;
+		padding: 10px;
+	}
+
+	.top-btn i {
+		font-size: 30px;
+	}
+
 	.section3copy {
 		font-size: 16px;
 		line-height: 24px;
@@ -121,7 +135,7 @@
 		height: auto;
 	}
 
-	.key2 h1 {
+	.key2 h2 {
 		font-size: 18px;
 		line-height: 30px
 	}
@@ -158,10 +172,11 @@
 		padding: 0 20px;
 	}
 
-	.section5 h3 {
+	.section5 h3, .section5 p {
 		font-size: 12px;
 		padding: 0 20px;
 	}
+
 
 	.box5s {
 		width: 90%;
@@ -177,12 +192,12 @@
 		padding: 20px 30px;
 	}
 
-	.box5 h4 {
+	.box5 p {
 		margin: 0;
 	}
 
-	.box5 h5 {
-		margin-bottom: 5px;
+	.box5step p {
+		margin: 5px 0;
 	}
 
 	.section6 h3 {
@@ -200,7 +215,7 @@
 		padding: 5px;
 	}
 
-	.section7 h4 {
+	.section7 h3 {
 		padding: 0;
 	}
 
@@ -209,7 +224,7 @@
 		font-size: 12px;
 	}
 
-	.key2second h1 {
+	.mnone360 h2 {
 		font-size: 16px;
 		line-height: 24px;
 	}
@@ -233,9 +248,14 @@
 		text-align: center;
 	}
 
+	.threeadvantages p {
+		font-size: 12px;
+	}
+
 	.advantage p {
 		font-size: 14px;
 	}
+
 
 	.additionbox {
 		width: 100%;
@@ -250,11 +270,7 @@
 		font-size: 16px;
 	}
 
-	.additionbox p {
-		font-size: 12px;
-	}
-
-	.threeadvantages p {
+	.buildteam p {
 		font-size: 14px;
 	}
 
@@ -294,7 +310,7 @@
 		width: 100%;
 	}
 
-	.whitequestion h1 {
+	.whitequestion h2 {
 		font-size: 14px;
 		line-height: 30px;
 	}
@@ -311,6 +327,10 @@
 	.section9message {
 		width: 90%;
 		margin: 0 auto;
+	}
+
+	.section9message h2{
+		font-size: 20px;
 	}
 
 	.presidents {
@@ -330,11 +350,11 @@
 
 	}
 
-	.section10 h1 {
+	.section10 h2 {
 		font-size: 24px;
 	}
 
-	.section10 h4 {
+	.section10 p {
 		font-size: 12px;
 	}
 
@@ -344,7 +364,7 @@
 		margin: 10px auto;
 	}
 
-	.contentsdetail h4 {
+	.contentsdetail p {
 		line-height: 35px;
 	}
 
@@ -481,11 +501,11 @@
 		text-align: left;
 	}
 
-	.section13 h1 {
+	.section13 h2 {
 		font-size: 20px;
 	}
 
-	.section13 h3 {
+	.section13 p {
 		font-size: 12px;
 	}
 
@@ -495,7 +515,7 @@
 	}
 
 	.keywhite2 h2 {
-		font-size: 20px;
+		font-size: 16px;
 		line-height: 40px;
 		width: 70%;
 	}
@@ -559,12 +579,16 @@
 		margin: 5px auto;
 	}
 
-	.question h2 {
+	.question h3 {
 		font-size: 12px;
 	}
 
 	.question span {
 		top: 16px;
+	}
+
+	.answer {
+		font-size: 12px;
 	}
 
 	#tenman {
@@ -574,7 +598,7 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
 
 	.section1 h2 {
 		font-size: 14px;
@@ -600,11 +624,19 @@
 		font-size: 12px;
 	}
 
+	.boxitem {
+		width: 40%;
+	}
+
+	.itemtop {
+		vertical-align: bottom;
+	}
+
 	.mnone360 {
 		margin: 0;
 	}
 
-	.whitequestion h1 {
+	.whitequestion h2 {
 		font-size: 12px;
 	}
 
@@ -628,5 +660,8 @@
 		width: 80%;
 	}
 
+	.keywhite2 h2 {
+		font-size: 12px;
+	}
 
 } 
