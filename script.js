@@ -41,4 +41,20 @@ $(function() {
 
 	};
 
+	$('.top-btn').click(function(){
+		$('html, body').animate({
+			'scrollTop':0
+		},'slow');
+	});
+
+	$(window).scroll(function(){
+		$('.fadein').each(function(){
+            var windowHeight = $(window).scrollTop();
+            if (windowHeight > 0){
+                $(this).addClass('scrollin');
+            }else {
+            	$(this).removeClass('scrollin');
+            }
+		});
+	});
 });
